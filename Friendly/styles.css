@@ -1,0 +1,132 @@
+
+
+.info{
+
+	display: inline;
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+.button{
+
+	background: blue;
+	position: fixed;
+	width: 100%;
+}
+
+
+
+h1 {
+	background: blue;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 26px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+
+}
+body {
+	background: lightblue;
+}
+
+.contact {
+
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	padding:10px 10px;
+	background: white;
+	border: orange 5px solid;
+	margin-bottom: 30px;
+}
+
+.contact1 {
+
+
+
+
+	margin-left: 100px;
+	margin-right: 400px;
+	
+
+	
+}
+
+.person1{
+
+
+
+	float: right;
+	margin-right: 100px;
+	
+
+}
+img{
+
+	transition:all .8s ease;
+}
+.pic:hover{
+
+	-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        
+}
+
+.name{
+
+
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    .contact1 {
+    	float: none;
+display: block;
+	margin: auto;
+	margin-bottom: 50px;
+
+	width: 400px;
+	height: 400px;
+	background: darkgray;
+
+	
+}
+
+.person1{
+	float: none;
+display: block;
+	margin: auto;
+	margin-bottom: 50px;
+
+
+	width: 400px;
+	height: 400px;
+	background: darkgray;
+
+}
+
+.name{
+
+
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	color: yellow;
+}
+h1{
+background: darkred;
+
+}
+.button{
+
+	background: darkred;
+}
+.contact{
+
+		border: darkblue 5px solid;
+}
+}
