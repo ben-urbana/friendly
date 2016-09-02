@@ -24,6 +24,13 @@ h1 {
 	position: fixed;
 
 }
+
+h2{
+
+transition:all .8s ease;
+
+	
+}
 body {
 	background: lightblue;
 }
@@ -77,6 +84,12 @@ img{
 
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
+}
+.name:hover{
+-webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+
 }
 
 @media only screen and (max-width: 600px) {
