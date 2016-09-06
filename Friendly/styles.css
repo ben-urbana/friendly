@@ -38,8 +38,8 @@ body {
 .contact {
 
 	display: inline-block;
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	padding:10px 10px;
 	background: white;
 	border: orange 5px solid;
@@ -52,7 +52,7 @@ body {
 
 
 	margin-left: 100px;
-	margin-right: 400px;
+	
 	
 
 	
@@ -141,5 +141,7 @@ background: darkred;
 .contact{
 
 		border: darkblue 5px solid;
+		width: 400px;
+		height: 400px;
 }
 }
